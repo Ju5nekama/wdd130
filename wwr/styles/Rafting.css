@@ -12,15 +12,15 @@
 
 a {
     text-decoration: none;
+    padding: 0 1rem 0 1rem;
 }
 
 header {
     background-color: var(--primary-color);
     margin: 1rem auto;
-    grid-template-columns: 120px 1fr 1fr;
     align-items: center;
     border-bottom: 1px solid #ccc;
-    max-width: 1000px;
+    display: flex;
 }
 p{
     font-family: var(--body-font);
@@ -53,7 +53,6 @@ article  {
 header,
 main,
 footer {
-    width: 840px;
     margin: 0 auto;
 }
 
@@ -180,4 +179,11 @@ h1 {
 width: 20%;
 height: auto;
 margin-right: 3px;
+}
+
+
+footer {
+    background-color: #f2eeeebc;
+    display: flex;
+    justify-content: space-between;
 }

@@ -206,3 +206,25 @@ footer {
     width: inherit;
     height: inherit;
 }
+.people{
+    display: flex;
+    justify-content: space-around;
+}
+.people img{
+    width: 20%;
+    height: auto;
+}
+
+#form{
+    margin:3rem 3rem 0 3rem;
+    border: solid black 1px;
+    padding: 1rem 1rem 0 1rem;
+    max-width: fit-content;
+    border-radius: 7px;
+}
+input{
+    margin-bottom: 1rem;
+}
+#sub{
+    margin:1rem 0 0 3rem;
+}

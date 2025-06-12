@@ -10,8 +10,9 @@
         href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
         rel="stylesheet">
     <meta name="description" content="This is the contact us page of the WWR page">
+    <meta name="author" content="June Osei-Bonsu">
     <link rel="stylesheet" href="styles/rafting.css">
-    <title> Rafting site</title>
+    <title>Down The River Contact Us Page</title>
 </head>
 
 <body>
@@ -24,6 +25,7 @@
             <a href="contact.html">Contact Us</a>
         </nav>
     </header>
+
     <main>
     <h2>COMPANY INFORMATION</h2>
     <section>
@@ -41,10 +43,29 @@
                 <td>Blah blah blah blah</td>
             </tr>
         </table>
+        
         <div class="mapbox">
             <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127220.38044698785!2d6.871531543359374!3d4.8322548000000065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069cddc92addc87%3A0xf54ee8a5a9d9e976!2sThe%20Church%20of%20Jesus%20Christ%20of%20Latter-day%20Saints!5e0!3m2!1sen!2sng!4v1749744044144!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
+
+    <div class="people">
+        <img src="images/p1.jpeg" alt="people">
+        <img src="images/p2.jpeg" alt="people">
+        <img src="images/p3.jpeg" alt="people">
+    </div>
+
+    <form id="form">
+        <label>Username:<br><input type="text" name="username"></label><br>
+        <label>Users Email:<br><input type="email" name="email"></label><br>
+        <p>Purpose of Message</p>
+        <label><input type="radio" name="message" value="General Inquiry">  General Inquiry</label><br>
+        <label><input type="radio" name="message" value="Reservation Question"> Reservation Question</label><br>
+        <label><input type="radio" name="message    " value="Website Suggestion">   Website Suggestion</label><br>
+        <label><input type="checkbox" name="subcribe">  Please subscribe me to the monthly newsletter</label><br>
+        <label><input type="submit" value="subcribe"></label>
+    </form>
+
 
 
     </main>

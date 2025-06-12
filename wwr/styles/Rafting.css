@@ -187,3 +187,15 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+
+
+/*Contact us pagr*/
+.mapbox{
+    width: 50%;
+    height:auto;
+}
+
+.map{
+    width: inherit;
+    height: inherit;
+}

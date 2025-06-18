@@ -300,3 +300,10 @@ input {
 #price{
     text-decoration: underline;
 }
+
+#contact{
+    padding: 1rem;
+    background-color: gold;
+    border-radius: 4px;
+    color: #180202;
+}
